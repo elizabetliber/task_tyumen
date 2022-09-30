@@ -1,6 +1,6 @@
 # task_tyumen
 
-1) Не сработает первый фрагмент кода, тк есть такое понятие, как поднятие переменной (hoisting), наш первый фрагмент выглядит так:
+1. Не сработает первый фрагмент кода, тк есть такое понятие, как поднятие переменной (hoisting), наш первый фрагмент выглядит так:
 т.е. объявление переменной будет всегда в верху скрипта, и когда мы захотим вывести пустую переменную, в которой ничего нет, у нас будет doubleNum не определён
 
 let doubleNum;                       
@@ -11,10 +11,8 @@ console.log( doubleNum(10) );  //doubleNum is not defined
 		return result;
 	}
 
------------------------------------------
-
-2)<code>
-<template>
+2.
+`<template>
    <component-name
       v-for="i in filteredCount"
       :key="i"
@@ -33,12 +31,12 @@ export default {
     }
   }
 }
-</script>
-</code>
------------------------------------------
+</script>`
 
-3) <code>
-resources = [
+
+
+3.
+`resources = [
 			{
 			   id: 1,
 			   count: 13,
@@ -98,5 +96,4 @@ resources = [
 		   
 	       console.log(  resourceTask(resources) );
 
-
-</code>
+`
