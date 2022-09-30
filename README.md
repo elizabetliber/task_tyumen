@@ -13,8 +13,11 @@ console.log( doubleNum(10) );  //doubleNum is not defined
 
 -----------------------------------------
 
-2) <template>
-  <component-name
+2) 
+
+<code>
+<template>
+   <component-name
       v-for="i in filteredCount"
       :key="i"
   />
@@ -33,9 +36,11 @@ export default {
   }
 }
 </script>
----------------------------------
+</code>
+-----------------------------------------
 
-3) resources = [
+<code>
+resources = [
 			{
 			   id: 1,
 			   count: 13,
@@ -96,3 +101,4 @@ export default {
 	       console.log(  resourceTask(resources) );
 
 
+</code>
